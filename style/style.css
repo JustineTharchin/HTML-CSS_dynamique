@@ -335,7 +335,7 @@ a{
 }
 
 .activityCard {
-  box-shadow: 10 10 20px rgba(0 0 0 0.2);
+  box-shadow: 0 0 20px #0000002e;
   border-radius: 1rem;
   overflow: hidden;
   display: flex;
