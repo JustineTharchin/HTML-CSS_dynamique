@@ -410,12 +410,6 @@ a{
         order: 2;
     }
 
-    .header_nav_link{
-        width: 50%;
-        text-align: center;
-        border-top: none;
-    }
-
     .header_nav_link:hover{
         color: var(--main-blue); 
         border-bottom: 3px solid var(--main-blue);    
