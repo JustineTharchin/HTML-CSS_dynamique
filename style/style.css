@@ -48,12 +48,6 @@ a{
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 960px){
-  .header_nav_link{
-      border-bottom: 3px solid transparent;
-  }
-}
-
 .header_signup{
     display: flex;
     align-items: center;
@@ -395,7 +389,7 @@ a{
 
 /* RESPONSIVE ET VERSION MOBILE */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 650px){
 
     .header{
         width: 100%;
@@ -422,6 +416,12 @@ a{
         border-top: none;
         border-bottom: 3px transparent solid;
     }
+
+    a:focus {
+      box-shadow: inset 220px 0  var(--blue-light);
+      color: var(--main-blue);
+      border-bottom: 2px solid var(--blue-light);
+    }
 }
 
 /* TABLETTE */
@@ -433,6 +433,11 @@ a{
     grid-template-areas: "logo.navbar button";
     }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+  .
+}
+
 
 
 /* RECHERCHE SUR MOBILE */
