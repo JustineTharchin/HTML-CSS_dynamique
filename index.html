@@ -28,7 +28,6 @@
     <!-- RECHERCHE-->
     
             <section class="search">
-
                 <header class="searchHeader">
                   <h1 class="searchHeaderTitle">Trouvez votre hébergement pour des vacances de rêve</h1>
                   <p class="searchHeaderSubtitle">En plein centre de ville ou en pleine nature</p>
@@ -38,73 +37,89 @@
                     <div class="search_form_icon">
                       <i class="fas fa-map-marker-alt"></i>
                     </div>
-                  <input class="search_form_text_input" type="text" name="research" id="research" 
+                    <input class="search_form_text_input" type="text" name="research" id="research" 
                     placeholder="Marseille, France" size="1">
                     <input class="search_form_submit_input" type="submit" value="Rechercher">
-                    <button class="search_form_submit_input_2" type="submit"><i class="fas fa-search">
-                    </i></button>
+                    <button class="search_form_submit_input_2" type="submit">
+                      <i class="fas fa-search"></i>
+                    </button>
                 </form>
 
     <!-- FILTRES -->
 
             <div class="searchFilters">
-                  <h2 class="searchFiltersTitle">Filtres</h2>
+              <h2 class="searchFiltersTitle">Filtres</h2>
+              <div class="separatorFilter">
+                <a href="#">
                   <div class="searchFiltersFilter">
                     <div class="searchFiltersFilterWrapicon">
                       <i class="fas fa-money-bill-wave searchFiltersFilterWrapiconIcon"></i>
                     </div>
-                  <span class="searchFiltersFilterTitle">Économique</span>
+                    <span class="searchFiltersFilterTitle">Économique</span>
                   </div>
-
-                <div class="searchFiltersFilter">
-                  <div class="searchFiltersFilterWrapicon">
-                    <i class="fas fa-child searchFiltersFilterWrapiconIcon"></i>
-                  </div>
-                <span class="searchFiltersFilterTitle">Familial</span>
-                </div>
-
-                <div class="searchFiltersFilter">
-                  <div class="searchFiltersFilterWrapicon">
-                    <i class="fas fa-heart searchFiltersFilterWrapiconIcon"></i>
-                  </div>
-                  <span class="searchFiltersFilterTitle">Romantique</span>
-                </div>
-
-                <div class="searchFiltersFilter">
-                  <div class="searchFiltersFilterWrapicon">
-                    <i class="fas fa-dog searchFiltersFilterWrapiconIcon"></i>
-                  </div>
-                  <span class="searchFiltersFilterTitle">Animaux autorisés</span>
-                </div>
+                </a>
               </div>
-              <div class="searchResult">
-                <div class="searchResultWrapicon"><i class="fas fa-info searchResultWrapiconIcon"></i></div>
-                <p class="searchResultText">Plus de 500 logements sont disponibles dans cette ville</p>
+
+              <div class="separatorFilter">
+                <a href="#">
+                  <div class="searchFiltersFilter">
+                    <div class="searchFiltersFilterWrapicon">
+                      <i class="fas fa-child searchFiltersFilterWrapiconIcon"></i>
+                    </div>
+                    <span class="searchFiltersFilterTitle">Familial</span>
+                  </div>
+                </a>
+              </div> 
+
+              <div class="separatorFilter">
+                <a href="#">
+                  <div class="searchFiltersFilter">
+                    <div class="searchFiltersFilterWrapicon">
+                      <i class="fas fa-heart searchFiltersFilterWrapiconIcon"></i>
+                    </div>
+                      <span class="searchFiltersFilterTitle">Romantique</span>
+                  </div>
+                </a>
+              </div>
+
+              <div class="separatorFilter">
+                <a href="#">
+                  <div class="searchFiltersFilter">
+                    <div class="searchFiltersFilterWrapicon">
+                      <i class="fas fa-dog searchFiltersFilterWrapiconIcon"></i>
+                    </div>
+                    <span class="searchFiltersFilterTitle">Animaux autorisés</span>
+                  </div>
+                </a>
+              </div>
             </div>
-    
+
+              <div class="searchResult">
+                <div class="searchResultWrapicon">
+                  <i class="fas fa-info searchResultWrapiconIcon"></i>
+                </div>
+                <p class="searchResultText">Plus de 500 logements sont disponibles dans cette ville</p>
+              </div>
           </section>
         
         
     <!-- HEBERGEMENTS -->
 
     <section class="hosting" id="hosting">
-              <div class="hostingMain">
-                <header class="hostingMainHeader">
-                  <h2 class="hostingMainHeaderTitle">Hébergements à Marseille</h2></br>
-                </header>
+      <div class="hostingMain">
+        <header class="hostingMainHeader">
+            <h2 class="hostingMainHeaderTitle">Hébergements à Marseille</h2></br>
+        </header>
 
-                <article class="hostingMainCard">
-                  <a href="#">
+        <article class="hostingMainCard">
+          <a href="#">
             <figure class="hostingMainCardFigure">
-              <img 
-                class="hostingMainCardFigureImg"
-                src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                alt="Chambre avec un lit superposé, une fenêtre et vue sur la ville"
-              >
+              <img class="hostingMainCardFigureImg" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre avec un lit superposé, une fenêtre et vue sur la ville">
               <figcaption class="hostingMainCardFigureCaption">
                 <h3 class="hostingMainCardFigureCaptionTitle">Auberge la Cannebière</h3>
               </figcaption>
             </figure>
+
             <p class="hostingMainCardDesc">Nuit à partir de <strong class="hostingMainCardDescPrice">25€
             </strong></p>
             <div class="hostingMainCardGrade">
@@ -114,17 +129,13 @@
               <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
               <i class="fas fa-star hostingMainCardGradeIcon" data-active="false"></i>
             </div>
-                  </a>
-                </article>
+          </a>
+        </article>
 
-          <article class="hostingMainCard">
-            <a href="#">
+        <article class="hostingMainCard">
+          <a href="#">
             <figure class="hostingMainCardFigure">
-              <img 
-                class="hostingMainCardFigureImg"
-                src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
-                alt="Chambre avec deux lits simples"
-              >
+              <img class="hostingMainCardFigureImg" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Chambre avec deux lits simples">
               <figcaption class="hostingMainCardFigureCaption">
                 <h3 class="hostingMainCardFigureCaptionTitle">Hôtel du port</h3>
               </figcaption>
@@ -138,17 +149,13 @@
               <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
               <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
             </div>
-            </a>
-          </article>
+          </a>
+        </article>
 
           <article class="hostingMainCard">
             <a href="#">
             <figure class="hostingMainCardFigure">
-              <img 
-                class="hostingMainCardFigureImg"
-                src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
-                alt="Chambre avec un lit, une douche et une armoire avec glace"
-              >
+              <img class="hostingMainCardFigureImg" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Chambre avec un lit, une douche et une armoire avec glace">
               <figcaption class="hostingMainCardFigureCaption">
                 <h3 class="hostingMainCardFigureCaptionTitle">Hôtel Les mouettes</h3>
               </figcaption>
@@ -168,11 +175,7 @@
         <article class="hostingMainCard">
           <a href="#">
             <figure class="hostingMainCardFigure">
-              <img 
-                class="hostingMainCardFigureImg"
-                src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
-                alt="Chambre avec un lit double"
-              >
+              <img class="hostingMainCardFigureImg" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Chambre avec un lit double">
               <figcaption class="hostingMainCardFigureCaption">
                 <h3 class="hostingMainCardFigureCaptionTitle">Hôtel de la mer</h3>
               </figcaption>
@@ -192,11 +195,7 @@
         <article class="hostingMainCard">
           <a href="#">
             <figure class="hostingMainCardFigure">
-              <img 
-                class="hostingMainCardFigureImg"
-                src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
-                alt="Chambre avec quatre lits simples superposés"
-              >
+              <img class="hostingMainCardFigureImg" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Chambre avec quatre lits simples superposés">
               <figcaption class="hostingMainCardFigureCaption">
                 <h3 class="hostingMainCardFigureCaptionTitle">Auberge Le Panier</h3>
               </figcaption>
@@ -216,11 +215,7 @@
         <article class="hostingMainCard">
           <a href="#">
             <figure class="hostingMainCardFigure">
-              <img 
-                class="hostingMainCardFigureImg"
-                src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                alt="Chambre avec un lit double, un bureau et une télévision"
-              >
+              <img class="hostingMainCardFigureImg" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Chambre avec un lit double, un bureau et une télévision">
               <figcaption class="hostingMainCardFigureCaption">
                 <h3 class="hostingMainCardFigureCaptionTitle">Hôtel chez Amina</h3>
               </figcaption>
@@ -236,21 +231,18 @@
             </div>
           </a>
         </article>
+
         <a class="hostingMainViewmore" href="#">Afficher plus</a>
       </div>
 
     <!-- LES PLUS POPULAIRES -->
 
-            <aside class="hostingPopular">
+    <aside class="hostingPopular">
         <h2 class="hostingPopularTitle">Les plus populaires</br></br><i class="fas fa-chart-line"></i></h2>
         <article class="hostingMainCard hostingPopularCard">
           <a class="hostingPopularWrapcontent" href="#">
             <div class="hostingPopularWrapcontentWrapimg">
-              <img 
-                class="hostingPopularWrapcontentWrapimgImg"
-                src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                alt="Chambre avec un lit double et un miroir au-dessu de la tête de lit"
-              >
+              <img class="hostingPopularWrapcontentWrapimgImg" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Chambre avec un lit double et un miroir au-dessu de la tête de lit">
             </div>
             <div class="hostingPopularWrapcontentContent">
               <h3 class="hostingMainCardFigureCaptionTitle">Hôtel Le soleil du matin</h3>
@@ -271,11 +263,7 @@
         <article class="hostingMainCard hostingPopularCard">
           <a class="hostingPopularWrapcontent" href="#">
             <div class="hostingPopularWrapcontentWrapimg">
-              <img 
-                class="hostingPopularWrapcontentWrapimgImg"
-                src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-                alt="Chambre avec un lit double et une mezzanine"
-              >
+              <img class="hostingPopularWrapcontentWrapimgImg" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Chambre avec un lit double et une mezzanine">
             </div>
             <div class="hostingPopularWrapcontentContent">
               <h3 class="hostingMainCardFigureCaptionTitle">Au cœur de l'eau Chambres d'hôtes</h3>
@@ -296,11 +284,7 @@
         <article class="hostingMainCard hostingPopularCard">
           <a class="hostingPopularWrapcontent" href="#">
             <div class="hostingPopularWrapcontentWrapimg">
-              <img 
-                class="hostingPopularWrapcontentWrapimgImg"
-                src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                alt="Chambre avec un lit double"
-              >
+              <img class="hostingPopularWrapcontentWrapimgImg" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Chambre avec un lit double">
             </div>
             <div class="hostingPopularWrapcontentContent">
               <h3 class="hostingMainCardFigureCaptionTitle">Hôtel Tout bleu et Blanc</h3>
