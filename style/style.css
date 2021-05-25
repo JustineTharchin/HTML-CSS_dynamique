@@ -410,9 +410,9 @@ a{
         order: 2;
     }
 
-    .header_nav_link:hover{
+    .header_nav_link:focus{
         color: var(--main-blue); 
-        border-bottom: 3px solid var(--main-blue);    
+        border-bottom: 3px solid var(--main-blue);  
     }
 }
 
