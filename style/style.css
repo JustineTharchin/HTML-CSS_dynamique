@@ -57,18 +57,15 @@ a{
     padding: 2rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1366px) { 
 .header_nav_link:hover{
     color: var(--main-blue); 
     border-top: 3px solid var(--main-blue);    
-  }
 }
 
 .header_signup:hover{
    border-top: 3px solid transparent;
    border-bottom: 3px solid transparent;
 }
-
 
 
 
@@ -413,9 +410,11 @@ a{
         order: 2;
     }
 
-    .header_nav_link:focus{
-        color: var(--main-blue); 
-        border-bottom: 3px solid var(--main-blue);  
+    .header_nav_link{
+        width: 50%;
+        text-align: center;
+        border-top: none;
+        border-bottom: 3px transparent solid;
     }
 }
 
@@ -423,14 +422,10 @@ a{
 
 @media screen and (min-width: 730px) and (max-width: 1024px) {
 
-    .header {
-      grid-template-columns: auto 1fr auto auto;
-      grid-template-areas: "logo.navbar button";
+    header {
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo.navbar button";
     }
-
-    .header_nav_link:focus{
-        color: var(--main-blue); 
-        border-bottom: 3px solid var(--main-blue);
 }
 
 
