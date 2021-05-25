@@ -414,7 +414,6 @@ a{
         width: 50%;
         text-align: center;
         border-top: none;
-        border-bottom: 3px transparent solid;
     }
 
     .header_nav_link:hover{
@@ -427,9 +426,9 @@ a{
 
 @media screen and (min-width: 730px) and (max-width: 1024px) {
 
-    header {
-    grid-template-columns: auto 1fr auto auto;
-    grid-template-areas: "logo.navbar button";
+    .header {
+      grid-template-columns: auto 1fr auto auto;
+      grid-template-areas: "logo.navbar button";
     }
 }
 
