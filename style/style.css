@@ -57,15 +57,18 @@ a{
     padding: 2rem;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1366px) { 
 .header_nav_link:hover{
     color: var(--main-blue); 
     border-top: 3px solid var(--main-blue);    
+  }
 }
 
 .header_signup:hover{
    border-top: 3px solid transparent;
    border-bottom: 3px solid transparent;
 }
+
 
 
 
@@ -424,6 +427,10 @@ a{
       grid-template-columns: auto 1fr auto auto;
       grid-template-areas: "logo.navbar button";
     }
+
+    .header_nav_link:focus{
+        color: var(--main-blue); 
+        border-bottom: 3px solid var(--main-blue);
 }
 
 
