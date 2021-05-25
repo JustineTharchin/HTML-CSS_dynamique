@@ -450,6 +450,11 @@ a{
   .searchFiltersFilter {
     margin-left: 1.2em;
   }
+  .searchFiltersFilter:hover {
+  box-shadow: inset 220px 0  var(--blue-light);
+  color: var(--main-blue);
+  border: 2px solid var(--blue-light);
+  }
 }
 
 /* RECHERCHE SUR TABLETTE */
