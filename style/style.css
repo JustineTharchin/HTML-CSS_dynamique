@@ -210,6 +210,10 @@ a{
   margin: 0;
 }
 
+.separatorFilter{
+  margin-left: 1rem;
+}
+
 /* HEBERGEMENTS */
 
 .hostingWrapper, .hostingPopular, .hostingMain {
@@ -443,6 +447,8 @@ a{
   }
 }
 
+/* FILTRES MOBILE */
+
 @media screen and (max-width: 650px) {
   .searchFiltersTitle {
     width: 100%;
@@ -450,11 +456,14 @@ a{
   .searchFiltersFilter {
     margin-left: 1.2em;
   }
-  .searchFiltersFilter:hover {
-  box-shadow: inset 220px 0  var(--blue-light);
-  color: var(--main-blue);
-  border: 2px solid var(--blue-light);
-  }
+}
+
+@media screen and (max-width: 650px){
+     a:focus {
+      box-shadow: inset 220px 0  var(--blue-light);
+      color: var(--main-blue);
+      border: 2px solid var(--blue-light);
+    }
 }
 
 /* RECHERCHE SUR TABLETTE */
