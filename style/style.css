@@ -344,7 +344,7 @@ a{
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background-color: var(--bg-grey);
+  background-color: white;
 }
 .activityCard:hover {
   transform: scale(1.01);
